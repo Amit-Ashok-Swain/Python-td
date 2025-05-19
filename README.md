@@ -200,11 +200,4 @@ Each script includes user-friendly prompts and basic error handling to ensure sm
 
 ---
 
-## 📞 Support
-
-If you face any issues or have queries, feel free to contact the mentor or use the chat support option.
-
-
----
-
 Happy Coding! 🚀
