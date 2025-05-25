@@ -166,7 +166,6 @@ with open("my_file.txt", "r") as file2:
 
 # Adding the data to a file
 
-
 """
 file3 = open("my_file.txt", "w")
 writing_file = file3.write("Hello")

@@ -24,6 +24,11 @@ def call(x,y):
 res2 = call(1,2)
 print(res2)
 
+c = call
+
+res7 = c(1,2)
+print(res7)
+
 
 # Pass function to a function
 

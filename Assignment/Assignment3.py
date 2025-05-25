@@ -26,6 +26,23 @@ print("The factorial of", number, "is:",answer)
 print()
 print()
 
+def factorial1(n):
+    for i in range(0,n+1,-1):
+        if i == 0:
+            return 1
+        else:
+            fact = i * (i-1)
+            return fact
+    return None
+
+
+number1 = int(input("Enter a number: "))
+answer1 = factorial(number1);
+print("The factorial of", number1, "is:",answer1)
+
+print()
+print()
+
 """
 Output:
 /Users/amitashokswain/PycharmProjects/Python/.venv/bin/python /Users/amitashokswain/PycharmProjects/Python/Assignment/Assignment3.py 

@@ -202,6 +202,7 @@ print(set4)
 print(set1)
 set5 = set3.intersection(set2)
 print(set5)
+print(set2)
 set6 = set1.difference(set2)
 print(set6)
 set7 = set2.difference(set1)
@@ -211,6 +212,8 @@ print(set8)
 print(set1.issubset(set8))
 set9 = set1.symmetric_difference(set2)
 print(set9)
+set10 = set2.symmetric_difference(set1)
+print(set10)
 
 print()
 print()
@@ -235,7 +238,7 @@ sen = 'Amit is a good boy'
 print(sen.startswith('Amit'))
 print(sen.endswith('boy')) # it is case-sensitive
 print(sen.replace('Amit', 'Swain'))
-print(sen.find('good')) # it is case-sensitive and returns the index of the first character string 'good'
+print(sen.find('good')) # it is case-sensitive and returns the index of the first character string 'good' -> 'g'
 
 
 sen1 = '    Amit is a good boy'
