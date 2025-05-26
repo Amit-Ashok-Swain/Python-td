@@ -9,7 +9,7 @@ def on_leave(e):
 
 # Main app window
 root = tk.Tk()
-root.title("🧮 Modern Calculator")
+root.title("📟 Modern Calculator")
 root.configure(bg="#2c2c2c")
 root.geometry("420x540")
 root.resizable(False, False)
